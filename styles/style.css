@@ -4,6 +4,7 @@ body,.form-login,.table-login,td,tr,input[type="checkbox"]{
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 .header{
   display: flex;
@@ -299,8 +300,6 @@ input[type="radio"]{
   font-weight: 400;
   margin:0;
 }
-
-
 
 
 
