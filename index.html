@@ -50,91 +50,92 @@
       <div class="signup">
         <h2 id="title1">Sign Up</h2>
         <p id="title2">It&apos; free and always will be.</p>
-        <form class="form-signup">
+        <form class="form-signup" id="signup-form">
           <table class="table-signup">
             <tr class="name-box" border="4px">
-              <td class="lastname-box"><input type="text" placeholder="First Name" class="firstname"></td>
-              <td><input type="text" placeholder="Last Name" class="lastname"></td>
+              <td><input name="fname" type="text" placeholder="First Name" class="firstname"></td>
+              <td><input name="lname" type="text" placeholder="Last Name" class="lastname"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="email" placeholder="Your Email" class="EandP"></td>
+              <td colspan="2"><input id="Email" name="Email" type="email" placeholder="Your Email" class="EandP"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="email" placeholder="Re-enter Email" class="EandP"></td>
+              <td colspan="2"><input name="reEmail" type="email" placeholder="Re-enter Email" class="EandP"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="password" placeholder="New Password" class="EandP"></td>
+              <td colspan="2"><input name="Pass" type="password" placeholder="New Password" class="EandP"></td>
             </tr>
           </table>
           <h5 id="bday-tl">Birthday:</h5>
             <table  class="table-bday">
               <tr class="bday-box">
                 <td>
-                  <select class="slct-month">
-                    <option>Month</option>
-                    <option>January</option>
-                    <option>february</option>
-                    <option>March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>Augest</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
+                  <select name="month" class="slct-month">
+                    <option value="">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="Augest">Augest</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
                   </select>
                 </td>
                 <td>
-                  <select class="slct-dyYr">
-                    <option>Day:</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                    <option>16</option>
-                    <option>17</option>
-                    <option>18</option>
-                    <option>19</option>
-                    <option>20</option>
-                    <option>21</option>
-                    <option>22</option>
-                    <option>23</option>
-                    <option>24</option>
-                    <option>25</option>
-                    <option>26</option>
-                    <option>27</option>
-                    <option>28</option>
-                    <option>29</option>
-                    <option>30</option>
-                    <option>31</option>
+                  <select name="day" class="slct-dyYr">
+                    <option value="">Day:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
                   </select>
                 </td>
                 <td>
-                  <select class="slct-dyYr">
-                    <option>Year:</option>
-                    <option>2000</option>
-                    <option>2001</option>
-                    <option>2002</option>
-                    <option>2003</option>
-                    <option>2004</option>
-                    <option>2005</option>
-                    <option>2006</option>
-                    <option>2007</option>
-                    <option>2008</option>
-                    <option>2009</option>
-                    <option>2010</option>
+                  <select name="year" class="slct-dyYr">
+                    <option value="">Year:</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
                   </select>
                 </td>
                 <td>
@@ -148,8 +149,12 @@
               <label for="female" class="Gender">Female</label>
             </div>
             <div class="radio">
-              <input type="radio" id="male" name="gender" value="gg">
+              <input type="radio" id="male" name="gender">
               <label for="male" class="Gender">Male</label>
+            </div>
+            <div class="radio">
+              <input type="radio" id="custom" name="gender">
+              <label for="custom" class="Gender">Custom</label>
             </div>
           </div>
               <div class="Terms">
@@ -199,5 +204,8 @@
         </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>
